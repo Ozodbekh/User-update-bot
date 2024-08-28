@@ -11,7 +11,7 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, KeyboardButton, BotCommand
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from dotenv import load_dotenv
-load_dotenv("/home/ozodbek/PycharmProjects/User-update-bot/.env")
+load_dotenv()
 
 TOKEN = getenv("BOT_TOKEN")
 
